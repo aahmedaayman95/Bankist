@@ -1,0 +1,21 @@
+{
+  "name": "bankist",
+  "version": "1.0.0",
+  "description": "Bankist Application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./FinalBuildFolder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
